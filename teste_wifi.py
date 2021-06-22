@@ -30,7 +30,7 @@ def teste():
     for seq in range(5):
         medidas.append(comandos.comand("iwconfig wlp1s0 | grep  Signal |  awk '{print $4}'").replace('level=',''))
         
-        sleep(8)
+        sleep(10)
         print(seq,medidas)
     return medidas
 
