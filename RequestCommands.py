@@ -1,3 +1,4 @@
+import os
 class RequestCommands:
     def __init__(self):
         pass
